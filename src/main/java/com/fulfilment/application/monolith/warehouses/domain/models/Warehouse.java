@@ -1,0 +1,22 @@
+package com.fulfilment.application.monolith.warehouses.domain.models;
+
+import java.time.LocalDateTime;
+
+public class Warehouse {
+
+   // Database-generated primary key used by the ID-based API endpoints.
+  public Long id;
+
+  // unique identifier
+  public String businessUnitCode;
+
+  public String location;
+
+  public Integer capacity;
+
+  public Integer stock;
+
+  public LocalDateTime createdAt;
+
+  public LocalDateTime archivedAt;
+}
